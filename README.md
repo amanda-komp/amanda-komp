@@ -5,7 +5,7 @@ This is my repository for OMIS 475
     <a href="Blockquote2.html"> Assignment 1 Ch2 Question 7</a> &nbsp;
              <a href="band.html"> Assignment 1 Ch2 Question 9</a>  &nbsp;
             <a href="AmandaKomp_CSS1.html"> Assignment 2 Ch3 Hands On Exercises #1, #2, #4, & #5 </a> &nbsp;
-            <a href="Assignment 2_Ch3_ Q8.html"> Assignment 2 Ch3 Hands On Exercise #8 </a>
+            <a href="advantage.html"> Assignment 2 Ch3 Hands On Exercise #8 </a>
             
     
     </center>    
