@@ -21,8 +21,8 @@ header { background-color: black;
          border-bottom: 2px solid #000000; }		 
 nav { float: left;
       width: 240px; }
-aside { float: left;
-        width: 500px; 
+aside { float: right;
+        width: 425px; 
         text-align: left;}
 main { margin: 0 240px 0 240px;
         padding: 0px 10px 10px 10px;
@@ -61,7 +61,7 @@ header a {font-size: 1.80em; }
 header a:link, header a:visited { color: #f096e4; }
 header a:focus, header a:hover { color: #eeeeee; }
 a {
-        color: rgb(220, 134, 223);
+        color: rgb(241, 107, 107);
       }
       p { text-decoration: none;
         font-size: 1.4em; 
@@ -73,7 +73,7 @@ nav a { text-decoration: none;
 
 nav a:link { color:black;}
 nav a:visited { color: black; }
-nav a:focus, nav a:hover { color: #white; }
+nav a:hover { color: white; }
 nav a:active { color: #000000;}
 nav img { margin: 10px;}
 main p { margin: 20px; }
