@@ -21,6 +21,8 @@ header { background-color: black;
          border-bottom: 2px solid #000000; }		 
 nav { float: left;
       width: 240px; }
+
+
 aside { float: right;
         width: 425px; 
         text-align: left;}
@@ -89,3 +91,4 @@ aside h3{ padding-bottom: 10px;
 		   color: white; }
 .news { font-size: 2.0em;
         margin: 10px; }	
+   
