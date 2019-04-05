@@ -1,0 +1,98 @@
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Amanda Nicole Komp</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="ankhome.css" rel="stylesheet">
+<link href="slideshow.css" rel="stylesheet">
+<link rel="icon" href="star.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+<div id="container">
+  <header role="banner">
+    <center>
+    <h1>Amanda Nicole Komp</h1></center>
+  </header>
+  <nav role="navigation">
+  <ul>
+    <li><a href="ankhome.html">Home</a></li>
+    <li><a href="ankaboutme.html">About Me</a></li>
+    <li><a href="ankeducation.html">Education</a></li>
+    <li><a href="ankrelevantcoursework.html">Relevant Coursework</a></li>
+    <li><a href="ankresume.html">Resume</a></li>
+    <li><a href="ankachievements.html">Achievements</a></li>
+    <li><a href="ankfamily.html">Family</a></li>
+    <li><a href="anktravel.html">Travel</a></li>
+    <li><a href="ankgoals.html">Goals</a></li>
+    <li><a href="ankcontactme.html">Contact Me</a></li>
+ </nav>
+  <main role="main" id="content">
+    <h2>Home</h2>
+    <center><p><marquee behavior="scroll" direction="left" scrollamount="6">Welcome to my Webpage!</marquee></p></center>
+<center>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="omis.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="niu.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="me.jpg" style="width:100%">
+    </div>
+  
+   
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div> </center>
+    
+
+    <script>var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1} 
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block"; 
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        <footer role="contentinfo"> Copyright &copy; 2019 Amanda Nicole Komp<br>
+    </footer>
+  </main>
+</div> 
+</body>
+</html>
